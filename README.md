@@ -45,7 +45,7 @@ SentinelCore is a state-of-the-art MCP server designed for **Universal Adaptive 
 ### Installation (Bando Edition)
 
 ```powershell
-npm install -g https://github.com/bandolyrix/SentinelCore.git
+npm install -g https://github.com/bandolyrix/sentinel-core-.git
 ```
 
 ### Configuration (Environment Variables)
