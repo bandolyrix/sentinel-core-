@@ -1,0 +1,23 @@
+{
+  "name": "sentinel-core",
+  "version": "1.1.0",
+  "main": "./dist/sentinel-core.js",
+  "type": "module",
+  "bin": {
+    "sentinel-core": "./dist/sentinel-core.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "global-install": "npm run build && npm link",
+    "prepublishOnly": "npm run build"
+  },
+  "private": true,
+  "devDependencies": {
+    "@types/node": "latest",
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.28.0",
+    "pocketbase": "^0.26.8"
+  }
+}
